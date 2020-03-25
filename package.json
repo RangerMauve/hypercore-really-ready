@@ -1,0 +1,28 @@
+{
+  "name": "hypercore-really-ready",
+  "version": "1.0.0",
+  "description": "Waits for a hypercore to be _really_ ready. That is, that it's synced with peers and is good to go",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RangerMauve/hypercore-really-ready.git"
+  },
+  "keywords": [
+    "hypercore",
+    "ready",
+    "dat"
+  ],
+  "author": "rangermauve",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/hypercore-really-ready/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/hypercore-really-ready#readme",
+  "devDependencies": {
+    "hypercore": "^8.11.1",
+    "random-access-memory": "^3.1.1"
+  }
+}
